@@ -1,0 +1,191 @@
+:root {
+  --neutral10 : #F5F5F7; 
+  --neutral30 : #E2E1E5;
+  --neutral50 : #ACABB0;
+  --neutral60 : #87868A;
+  --neutral70 : #5E5D61;
+  --neutral80 : #454447;
+  --neutral90 : #2D2C2E;
+  --violetSurface : #F8F7FC;
+  --violet : #5307B0;
+  --redSurface : #FFF7F8;
+  --red50 : #C91019;
+  --white : #FFFFFF;
+  --black : #000000;
+}
+body {
+  background-color: var(--neutral10);
+  margin: 0;
+  font-family: Noto Sans KR, sans-serif;
+}
+p {
+  margin: 0;
+}
+#container {
+  width: 100%;
+  height: auto;
+  background-color: var(--white);
+  padding-bottom: 64px;
+}
+nav {
+  width: 100%;
+  height: 52px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+
+}
+nav div {
+  width: 160px;
+  height: 24px;
+  text-align: center;
+  color: var(--black);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.6px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+#treatment_detail_price_content1 {
+  display: flex;
+  height: fit-content;
+  padding: 28px 16px;
+  align-self: stretch;
+}
+.priceCard {
+  display: flex;
+  width: 100%;
+  padding: 20px 16px;
+  gap: 16px;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
+  border-radius: 8px;
+  border: 1px solid var(--neutral30);
+}
+.option {
+  display: inherit;
+  width: 100%;
+  flex-direction: column;
+  gap: 8px;
+  letter-spacing: -0.6px;
+  
+}
+.option_title {
+  display: inherit;
+  font-weight: 700;
+  line-height: 24px;
+  font-size: 16px;
+}
+.option_detail {
+  display: inherit;
+  flex-direction: column;
+  margin: 0;
+  padding: 6px 12px;
+  list-style: none;
+  background-color: var(--violetSurface);
+  border-radius: 4px;
+  gap: 2px;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  
+}
+.option_detail li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-self: stretch;
+  padding: 2px 0px;
+}
+.optionLabel {
+  width: 68px;
+  color: var(--neutral60);
+}
+.optionContent {
+  flex: 1 0 0;
+  word-break: break-word;
+  color: var(--neutral80);
+}
+.prices_btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  align-self: stretch;  
+}
+.prices {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+}
+.SalePrice {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.priceNormal {
+  display: inherit;
+  margin-bottom: -2px;
+  color: var(--neutral50);
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.6px;
+  align-items: baseline;
+
+}
+.salePercent {
+  color: var(--neutral70);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: -0.5px;
+}
+.priceNormalFigure {
+  text-decoration: line-through;
+}
+.priceEvent {
+  display: inherit;
+  align-items: baseline;
+  gap: 2px;
+  color: var(--neutral90);
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.6px;
+}
+.priveEventFigure {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: -0.7px;
+}
+
+.note {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 4px;
+}
+.divider {
+  height: 1px;
+  align-self: inherit;
+  background-color: var(--neutral10);
+}
+.noteContent {
+  align-self: inherit;
+  color: var(--neutral60);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.6px;
+}
